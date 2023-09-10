@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" type="text/css" href="style_P.css"></link>
+</head>
+<body>
+    <nav class="a" >
+    
+        <a  href="C:\Users\91800\Documents\html&css_progrmms\PORTFOLIO.html">HOME</a> 
+        <a href="C:\Users\91800\Documents\html&css_progrmms\ABOUT.HTML">ABOUT</a> 
+         <a href="C:\Users\91800\Documents\html&css_progrmms\SKILL.html">SKILL</a>
+         <a href="C:\Users\91800\Documents\html&css_progrmms\project2.html">PROJECT</a>
+        
+          
+            <a href="C:\Users\91800\Documents\html&css_progrmms\contact.html">CONTACT ME</a>
+    </nav>
+   <!------------------------portfolio--------------------------> 
+   <table>
+    <tr>
+  <td>
+   <img src="C:\Users\91800\Pictures\photo.png" height="600px" width="300px">
+</td> 
+  <td style="letter-spacing: 5px;">
+      <h1> &nbsp;&nbsp;  Hi,</br>&nbsp;&nbsp;I am<span > pratiksha</span>.
+      </br>&nbsp;&nbsp; a <span>web devloper</span>.</h1>
+   
+   <br>
+   &nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+   <br>&nbsp;&nbsp; Placeat repellendus reiciendis vel harum eligendi architecto,
+   <br>&nbsp;&nbsp; odio assumenda doloribus soluta nemo!
+ 
+<br><br><br>
+     <!-------------------------------resume----------------------------->
+     <a href="resume.pdf" download="resume" class="btn2"> Resume</a>
+</td>
+    </tr>
+   </table>
+   
+    
+<!-------------------------------------about----------------------->
+<div id="about">
+    <div class="container">
+     <div class="row">
+       <div class="about-col-1">
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <img src="C:\Users\91800\Pictures\photo.png"></img>
+       </div>
+       <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Iusto sunt molestiae saepe nesciunt, quas beatae facilis nemo. 
+          Architecto optio exercitationem nihil,
+          culpa dolor nam, enim magni nesciunt alias facere blanditiis.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Itaque, modi.</p>
+           <div class="tab-title">
+             <div class="tab-content">
+             <p class="tab-links">Skills</p>
+               
+                     <ul>
+                         <li><span>HTML/CSS</span><br>Web Designing<br></li>
+                         <li><span>C/Javascript</span><br>Backend Devlopment</li>
+                         <li><span>SQL</span><br>Database conectivity</li>
+                     </ul>
+                 </div>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <div class="tab-content" id="Experience">
+                     <p class="tab-links">Experience</p>
+                     <ul>
+                         <li>
+                             <span>CodeSoft</span><br>20 August to 20 September 2023
+                             <br>Internship At CodeSoft pvt ltd<br></li>
+                         </li>
+                     </ul>
+                  </div>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <div class="tan-content" id="Education">
+                 <p class="tab-links">Education</p>
+                    <ul>
+                     <li><span>2023</span><br>FY BCA from Institute of Management And Reasearch,Jamner.<br></li>
+                    </ul>
+                 </p>
+               </div>
+       </div>
+ </div>
+ 
+ </div>
+    </div>
+    <!-----------------------skills-------------------------> 
+   <table>
+    <tr>
+        <td>
+    <div id="services">
+        <div class="container">
+           
+           <tr>
+            <td><h1 class="sub-title">My Skills</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore 
+                ipsum, impedit deserunt doloremque quas sapiente temporibus 
+                repellendus voluptatibus voluptate Lorem ipsum dolor sit amet
+                <br>consectetur adipisicing elit. Sapiente repudiandae fugit magni
+                 maiore ssunt exercitationem eaque ipsam, labore expedita soluta?</p>
+            </td></tr>
+           <tr>
+            <td>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit.
+                         Natus unde repellat <br>numquam enim quod voluptatum, 
+                        </p>
+                        <a href="#">learn more</a>
+                </div>
+              
+                <div>
+                    <h2>Web Devlopment</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit.
+                         Natus unde repellat <br>numquam enim quod voluptatum, 
+                        </p>
+                        <a href="#">learn more</a>
+                </div>
+                
+                <div class>
+                    <h2>Backend Devloper</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit.
+                         Natus unde repellat <br>numquam enim quod voluptatum, 
+                       </p>
+                        <a href="#">learn more</a>
+                </div>
+         </div>
+        
+</td>
+</tr>
+</table>
+    <script>
+        var tablinks=document.getElementsByClassName("ta-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+    </script>
+    <!--------------------------------project--------------------------------->
+   <br><br>
+    <center> <h1><i>My Projects</i></h2></center>
+    <div class="all">
+        <div> 
+            <h3>Temperacture Converter</h3> <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Cum, sint.</p>
+     <img src="C:\Users\91800\Pictures\Screenshots\temp.png" height="300px" width="400px" >
+        </div>
+        <div>
+            <h3>Contact form</h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, excepturi.</p>
+      <img src="C:\Users\91800\Pictures\Screenshots\form.png"  height="300px" width="400px"></img>
+   </div>
+   <div>
+    <h3>Colour Animation</h3><br>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, ratione.</p>
+         <img src="C:\Users\91800\Pictures\Screenshots\hey.png"  height="300px" width="400px"></img>
+   </div>
+       </div>
+      <br><br>
+ <div> <button class="btn"> More Projects </button></div><br><br>
+
+    <!-------------------------------contact-------------------------------->
+    <section class="contact">
+        <div class="content">
+       <h2>CONTACT US</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Aliquid rem repudiandae excepturi, libero nemo dicta aut 
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ut officia repellat aspernatur hic nemo.
+         .</p>
+        </div>
+        <div class="container">
+           
+                    <div class="contactform">
+                        <form>
+                            <h2>Send Message</h2>
+                            <div class="inputBox">
+                                <input type="text" name="" required="required" >
+                                <span>full name</span>
+                            </div>
+
+                            <div class="inputBox">
+                                <input type="text" name="" required="required" >
+                                <span>Email</span>
+                            </div>
+
+                            <div class="inputBox">
+                               <textarea required="required" ></textarea>
+                                <span>Type Your Message...</span>
+                            </div>
+
+                            <div class="inputBox">
+                                <input type="submit" name="" value="send" >
+                               
+                            </div>
+                        </form>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </section>
+</table>
+
+ <footer>
+        <div class="footer-content">
+            <h3>For More</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023 pratiksha. Made with <span>CodeSoft</span></p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

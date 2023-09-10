@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style_L.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<section>
+   
+    <header>
+        <h2><a href="#" class="logo">Logo</h2></a></h2>
+        <div class="navigation">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Info</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</div>
+
+    </header>
+    <div class="content">
+        <div class="Info">
+          <h2>Like Nature<br><span>Be Creative!</span></h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+             Ullam beatae omnis nemo veritatis velit culpa at sapiente
+              numquam! Sunt, provident, aut cupiditate illum officiis 
+              dignissimos dolorem quo voluptates nam veritatis, eum 
+              enim minus inventore maiores voluptate fugiat. Nesciunt,
+               id facere!</p>
+               <a href="#" class="Info-btn">More Info</a>
+        </div>
+    </div>
+    <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i> </a>
+        <a href="#"><i class="fab fa-twitter"></i> </a>
+        <a href="#"><i class="fab fa-instagram"></i> </a>
+    </div>
+</section>
+    
+</body>
+</html>
